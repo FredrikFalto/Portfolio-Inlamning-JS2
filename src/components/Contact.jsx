@@ -10,22 +10,15 @@ function Contact() {
                     <ul>
                         <li>
                             <input type="text" placeholder="Name" />
+                        </li>
+                        <li>
                             <input type="text" placeholder="Email" />
                         </li>
                         <li>
-                            <input
-                                type="text"
-                                size="43"
-                                placeholder="Subject"
-                            />
+                            <input type="text" placeholder="Subject" />
                         </li>
                         <li>
-                            <textarea
-                                id=""
-                                cols="42"
-                                rows="5"
-                                placeholder="Message"
-                            ></textarea>
+                            <textarea rows="6" placeholder="Message"></textarea>
                         </li>
                         <li>
                             <button type="submit">Send message</button>

@@ -42,16 +42,21 @@ body {
     border-left: none;
     border-right: none;
     text-align: center;
-    width: 100%;
+    width: auto;
 }
 
 .contactForm {
     display: relative;
-    justify-content: center;
+    margin-top: 30vh;
+}
+
+.contactForm ul {
+    list-style: none;
 }
 
 .contactForm h1 {
     font-size: 2rem;
+    margin-left: 50px;
 }
 
 .contactForm form {
@@ -59,24 +64,25 @@ body {
 }
 
 .contactForm input {
+    font-family: "Be Vietnam Pro", sans-serif;
     border: 1px solid black;
-    padding: 5px;
+    padding: 7px;
     margin: 4px;
-}
-
-.contactForm .subject {
-    width: 100px;
+    width: 20rem;
 }
 
 .contactForm textarea {
+    font-family: "Be Vietnam Pro", sans-serif;
     border: 1px solid black;
     padding: 5px;
     margin: 5px;
-    width: auto;
+    width: calc(20rem + 5px);
     overflow: auto;
+    resize: auto;
 }
 
 .contactForm button {
+    font-family: "Be Vietnam Pro", sans-serif;
     text-align: center;
     border: 1px solid black;
     padding: 5px;
@@ -102,7 +108,7 @@ body {
     font-size: 50px;
 }
 
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     nav li {
         width: 7em;
         font-size: 1.4em;
@@ -111,10 +117,13 @@ body {
 
 @media screen and (max-width: 768px) {
     .main-menu {
-        height: 10rem;
         width: 100%;
         position: relative;
         padding: 0;
         margin: 0;
-    }    
-} */
+    }
+
+    .bg {
+        height: 90.7vh;
+    }
+}
