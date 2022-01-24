@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200&family=Roboto:wght@300&display=swap");
+
+body {
+    font-family: "Be Vietnam Pro", sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(210, 210, 210);
+}
+
+.main-menu {
+    height: 100%;
+    width: 10rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    padding-top: 43vh;
+}
+
+.main-menu-nav a {
+    width: 100%;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.main-menu-nav a:hover {
+    color: #f1f1f1;
+}
+
+.main-menu-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-menu-nav li {
+    font-size: 1.2em;
+    line-height: 2em;
+    border: 1px solid rgb(100, 100, 100);
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    width: 100%;
+}
+
+.contactForm {
+    display: relative;
+    justify-content: center;
+}
+
+.contactForm h1 {
+    font-size: 2rem;
+}
+
+.contactForm form {
+    text-align: center;
+}
+
+.contactForm input {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 4px;
+}
+
+.contactForm .subject {
+    width: 100px;
+}
+
+.contactForm textarea {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    width: auto;
+    overflow: auto;
+}
+
+.contactForm button {
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+    background: white;
+    border-radius: 5px;
+}
+
+.bg {
+    background-image: url(./img/pexels-eberhard-grossgasteiger-3389618.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: auto;
+    background-position: 50% 50%;
+}
+
+.bg h1 {
+    position: absolute;
+    top: 43vh;
+    left: calc(50vw - 85px);
+    color: #fff;
+    font-size: 50px;
+}
+
+/* @media screen and (min-width: 768px) {
+    nav li {
+        width: 7em;
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-menu {
+        height: 10rem;
+        width: 100%;
+        position: relative;
+        padding: 0;
+        margin: 0;
+    }    
+} */
