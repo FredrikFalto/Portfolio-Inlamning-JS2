@@ -1,8 +1,9 @@
 import React from "react";
+import About from "./About"
 
 function Contact() {
     return (
-        <div>
+        <div className="mainContent">
             <div className="contactForm">
                 <form autoComplete="off" action="">
                     <h1>Contact me 🙂</h1>

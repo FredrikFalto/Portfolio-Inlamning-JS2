@@ -7,6 +7,10 @@ body {
     background-color: rgb(210, 210, 210);
 }
 
+.mainContent {
+    display: grid;
+}
+
 .main-menu {
     height: 100%;
     width: 10rem;
@@ -125,5 +129,10 @@ body {
 
     .bg {
         height: 90.7vh;
+    }
+
+    .contactForm {
+        margin: 0;
+        padding: 0;
     }
 }
