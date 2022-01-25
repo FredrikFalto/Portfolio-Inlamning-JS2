@@ -50,8 +50,9 @@ body {
 }
 
 .contactForm {
-    display: relative;
-    margin-top: 30vh;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 30vh; */
 }
 
 .contactForm ul {
@@ -87,7 +88,6 @@ body {
 
 .contactForm button {
     font-family: "Be Vietnam Pro", sans-serif;
-    text-align: center;
     border: 1px solid black;
     padding: 5px;
     background: white;
