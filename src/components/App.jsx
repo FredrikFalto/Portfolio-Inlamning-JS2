@@ -5,7 +5,7 @@ import Main from "./Main"
 import Contact from "./Contact"
 import About from './About'
 
-function App() {  
+const App = () => {  
     return (
         <Router>
             <Navbar />
