@@ -15,8 +15,8 @@ const About = () => {
     }, []);
 
     return (
-        <div style={{"textAlign":"center"}}>
-            <h1>Herro</h1>
+        <div className="repoList">
+            <h2>My Repositories:</h2>
             {repos && <Repositories repos={repos}/>}
         </div>
     );

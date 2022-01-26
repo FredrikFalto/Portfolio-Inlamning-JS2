@@ -94,6 +94,21 @@ body {
     border-radius: 5px;
 }
 
+.repoList {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.repoList ul {
+    text-align: left;
+}
+
+.repoList a {
+    text-decoration: none;
+    color: black;
+}
+
 .bg {
     background-image: url(./img/pexels-eberhard-grossgasteiger-3389618.jpg);
     background-size: cover;

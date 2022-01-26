@@ -5,11 +5,13 @@ function Repositories(repos) {
 
     return (
         <div>
-            {repos.repos.map((repo) => (
-                <div className="listRepos" key={repo.id}>
-                    <h3>{repo.name} <a href={repo.svn_url}>Link</a></h3>
-                </div>
-            ))}
+            <ul>
+                {repos.repos.map((repo) => (
+                    <li key={repo.id}>
+                        <a target={"_blank"} href={repo.svn_url}>{repo.name}</a>
+                    </li>
+                ))}
+            </ul>
         </div>
     );
 }
