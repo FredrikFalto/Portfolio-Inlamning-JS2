@@ -4,7 +4,7 @@ function Repositories(repos) {
     console.log(repos);
 
     return (
-        <div>
+        <div className="grid">
             <ul>
                 {repos.repos.map((repo) => (
                     <li key={repo.id}>

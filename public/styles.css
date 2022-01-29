@@ -96,7 +96,7 @@ body {
 
 .repoList {
     display: grid;
-    justify-content: center;
+    /* justify-content: center; */
     text-align: center;
 }
 
@@ -107,6 +107,7 @@ body {
 .repoList a {
     text-decoration: none;
     color: black;
+    justify-items: center;
 }
 
 .bg {
@@ -125,6 +126,42 @@ body {
     left: calc(50vw - 85px);
     color: #fff;
     font-size: 50px;
+}
+
+.grid {
+    margin: 1em;
+    border: solid black;
+    background: white;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 2px;
+}
+
+.grid div {
+    border: solid;
+    text-align: center;
+}
+
+/* spanning cols, complete values missing */
+
+.col-2 {
+    grid-column: auto/span 2;
+}
+
+.col-3 {
+    grid-column: auto/span 3;
+}
+
+.col-6 {
+    grid-column: auto/span 6;
+}
+
+.col-8 {
+    grid-column: auto/span 8;
+}
+
+.col-12 {
+    grid-column: auto/span 12;
 }
 
 @media screen and (min-width: 768px) {
