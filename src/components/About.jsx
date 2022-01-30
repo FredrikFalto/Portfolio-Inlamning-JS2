@@ -28,7 +28,7 @@ const About = () => {
                     <table>
                         <tr>
                             <th colSpan={2}>
-                                <h2>Education</h2>
+                                <h2><u>Education</u></h2>
                             </th>
                         </tr>
                         <tr>
@@ -46,7 +46,7 @@ const About = () => {
                         </tr>
                         <tr>
                             <th colSpan={2}>
-                                <h2>Work experience</h2>
+                                <h2><u>Work experience</u></h2>
                             </th>
                         </tr>
                         <tr>
