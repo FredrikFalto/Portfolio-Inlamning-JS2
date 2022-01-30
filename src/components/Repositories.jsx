@@ -7,7 +7,7 @@ function Repositories(repos) {
         <ul>
             {repos.repos.map((repo) => (
                 <li key={repo.id}>
-                    <a target={"_blank"} href={repo.svn_url}>
+                    <a target={"_blank"} rel="noreferrer" href={repo.svn_url}>
                         {repo.name}
                     </a>
                 </li>

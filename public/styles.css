@@ -14,7 +14,7 @@ body {
     top: 0;
     left: 0;
     background-color: #111;
-    padding-top: 43vh;
+    padding-top: 41.5vh;
 }
 
 .main-menu-nav a {
@@ -99,6 +99,7 @@ body {
     text-decoration: none;
     color: black;
     justify-items: center;
+    font-size: 18px;
 }
 
 .bg {
@@ -144,12 +145,20 @@ body {
     grid-column: auto/span 4;
 }
 
+.col-4 img {
+    width: 80%;
+}
+
 .col-6 {
     grid-column: auto/span 6;
 }
 
 .col-8 {
     grid-column: auto/span 8;
+}
+
+.col-6 p {
+    font-size: 18px;
 }
 
 .col-12 {
@@ -164,7 +173,8 @@ body {
     margin-left: auto;
 }
 
-table, th {
+table,
+th {
     width: 100%;
     text-align: center;
 }
@@ -231,5 +241,13 @@ tr:nth-child(even) {
 
     .grid {
         margin-left: 1rem;
+    }
+
+    .col-6 {
+        grid-column: auto/span 12;
+    }
+
+    .col-4 {
+        grid-column: auto/span 12;
     }
 }

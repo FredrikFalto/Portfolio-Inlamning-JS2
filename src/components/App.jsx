@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import Main from "./Main"
 import Contact from "./Contact"
 import About from './About'
+import CV from './CV'
 
 const App = () => {  
     return (
@@ -11,6 +12,7 @@ const App = () => {
             <Navbar />
             <Routes>
                 <Route path="" element={<Main />} />
+                <Route path="/cv" element={<CV />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
             </Routes>
