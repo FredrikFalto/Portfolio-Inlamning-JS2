@@ -1,7 +1,9 @@
 import React from "react";
+import Footer from './Footer'
 
 const CV = () => {
     return (
+        <section>
         <div className="container">
             <div className="grid">
                 <div className="col-12">
@@ -86,6 +88,8 @@ const CV = () => {
                 </div>
             </div>
         </div>
+        <Footer />
+        </section>
     );
 };
 

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Repositories from "./Repositories";
+import Footer from './Footer'
 
 const About = () => {
     const [repos, setRepos] = useState(null);
@@ -15,6 +16,7 @@ const About = () => {
     }, []);
 
     return (
+        <section>
         <div className="container">
             <div className="grid">
                 <div className="col-12">
@@ -39,6 +41,8 @@ const About = () => {
                 </div>
             </div>
         </div>
+        <Footer/>
+        </section>
     );
 };
 

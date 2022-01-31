@@ -183,6 +183,25 @@ tr:nth-child(even) {
     background-color: rgb(180, 180, 180);
 }
 
+.social {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    justify-content: center;
+    padding-left: 4rem;
+}
+
+.social a {
+    text-decoration: none;
+    color: black;
+}
+
+.social-icon {
+    font-size: 20px;
+    padding: 0.5em;
+}
+
 @media (min-width: 0px) {
     .container {
         max-width: 80%;
@@ -249,5 +268,9 @@ tr:nth-child(even) {
 
     .col-4 {
         grid-column: auto/span 12;
+    }
+
+    .social {
+        padding-left: 0;
     }
 }
