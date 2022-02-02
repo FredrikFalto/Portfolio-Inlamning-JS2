@@ -5,6 +5,7 @@ import Main from "./Main"
 import Contact from "./Contact"
 import About from './About'
 import CV from './CV'
+import ErrorPage from './ErrorPage'
 
 const App = () => {  
     return (
@@ -15,6 +16,7 @@ const App = () => {
                 <Route path="/cv" element={<CV />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="*" element={<ErrorPage />} />
             </Routes>
         </Router>
     );
